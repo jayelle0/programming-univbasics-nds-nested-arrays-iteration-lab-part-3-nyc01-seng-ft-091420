@@ -10,7 +10,6 @@ while row < src.length do
      p src [row][element]
      new_array += src[row][element]
    end
-   
    element += 1
  end 
  row += 1
