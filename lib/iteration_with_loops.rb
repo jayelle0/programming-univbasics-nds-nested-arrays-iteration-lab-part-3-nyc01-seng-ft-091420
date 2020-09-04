@@ -6,7 +6,7 @@ new_array = []
 while row < src.length do 
   element = 0
   while element < src[row].length do
-    if src[row][element].class = String 
+    if src[row][element].class == String 
      p src [row][element]
      new_array += src[row][element]
    end
